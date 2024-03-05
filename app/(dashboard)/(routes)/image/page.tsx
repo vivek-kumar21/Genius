@@ -25,11 +25,6 @@ import {
 import { Card, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 
-interface ChatCompletionRequestMessage {
-  role: string;
-  content: string;
-}
-
 const ImagePage = () => {
   const router = useRouter();
   const [images, setImages] = useState<string[]>([]);
